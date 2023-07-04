@@ -1,0 +1,21 @@
+.odds,
+.odds_big {
+    background-color: pink;
+    font-family: Verdana;
+
+}
+
+.odds_big {
+    font-size: 24px;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+#four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
