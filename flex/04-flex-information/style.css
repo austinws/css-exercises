@@ -10,6 +10,9 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* My additions */
+  text-align: center;
+  margin: 16px 16px;
 }
 
 /* do not edit this footer */
@@ -23,4 +26,24 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* My additional class(es)*/
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  margin: 16px 16px;
+}
+
+.flower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 16px 16px;
 }
