@@ -20,6 +20,10 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /* My additions */
+  display: flex;
+  justify-content: baseline;
+  padding: 16px;
 }
 
 .icon {
@@ -33,6 +37,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* My additions */
+  flex: 1;
+  
 }
 
 .close-button {
@@ -48,6 +55,8 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  /* My additions */
+  flex: 1;
 }
 
 button {
@@ -66,4 +75,24 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* Additional class(es) of mine */
+
+.header {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex: 8;
+  padding: 8px 16px;
+  justify-content: flex-start;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
 }
